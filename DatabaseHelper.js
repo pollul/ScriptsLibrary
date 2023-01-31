@@ -19,8 +19,8 @@ const rows = data.values;
 for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
     $('#data-rows').append(`
-    <tr>
-        <td style="font-size:25px;">${row[0]}</td>
+    <tr style="font-size:25px;">
+        <td>${row[0]}</td>
         <td>${row[1]}</td>
         <td>${row[2]}</td>
         <td>${row[3]}</td>
