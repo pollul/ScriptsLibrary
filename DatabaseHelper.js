@@ -19,7 +19,7 @@ const rows = data.values;
 for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
     $('#data-rows').append(`
-    <tr style="font-size:25px;">
+    <tr style="font-size:25px">
         <td>${row[0]}</td>
         <td>${row[1]}</td>
         <td>${row[2]}</td>
