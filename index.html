@@ -12,6 +12,11 @@
   <body>
     <div class="container">
       <h1 class="text-center">Google Sheets Data</h1>
+      <!-- <input type="text" id="search" placeholder="Search..."> -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+      </form>
       <table class="table">
         <thead>
           <tr>
@@ -21,9 +26,7 @@
             <th>Description</th>
             <th>Price</th>
             <th>Service Time</th>
-            <th>
-                <input type="text" id="search" placeholder="Search...">
-            </th>
+            
           </tr>
         </thead>
         <tbody id="data-rows">
@@ -31,6 +34,6 @@
         </tbody>
       </table>
     </div>
-        <script src="https://raw.githubusercontent.com/pollul/ScriptsLibrary/master/DatabaseHelper.js"></script>
+        <script src="DatabaseHelper.js"></script>
   </body>
 </html>
